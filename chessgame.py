@@ -19,9 +19,9 @@ library = {
 }
 """
 Library called "library" includes all global variables that I will be using throghout this code. Most important
-onse are "pieces" and "moves". "pieces" is list of 8 lists that all have 8 items inside. So it forms a 8x8 area
+ones are "pieces" and "moves". "pieces" is a list of 8 lists that all have 8 items inside. So it forms a 8x8 area
 that contains 64 tiles. It also has all the pieces and their location obviously changes when you move the pieces.
-"moves" is also a list that forms a same exact 64 tile area, but it doesn't have any pieces in it. It only has tiles
+"moves" is also a list that forms a same exact 8x8 area, but it doesn't have any pieces in it. It only has tiles
 called "empty" or "move_option". So when you click any piece, "moves" list will put "move_option" to every tile that
 this piece can be moved to. If you move the piece or click anywhere else, it removes those "move_options".
 """
@@ -48,7 +48,7 @@ move_option = pyglet.resource.image("move_option.png")
 white_win = pyglet.resource.image("whitewin.png")
 black_win = pyglet.resource.image("blackwin.png")
 """
-Here I load all the pictures I will need to make the graphical user interface. Ever "w" before word means we are 
+Here I load all the pictures I will need to make the graphical user interface. Every "w" before word means we are 
 handling some white team event or piece and "b" means the same for black team.
 """
 
