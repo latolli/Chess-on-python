@@ -1,4 +1,5 @@
 # Chess-on-python
+Check "SCREENSHOTS" to see how it works!
 This is basically a chess made by python 3. I used pyglet library to make the graphical user interface for this project. This might not 
 be the most efficient way to code chess with python, but I just wanted to learn programming through some project. That's what this is.
 The game itself works just like any chess except for one thing. This one doesn't alert you when you are at check situation or even at 
